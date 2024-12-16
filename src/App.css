@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E5EDF1 !important;
+  color: #323232 !important; 
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: #96C2DB !important; 
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #96C2DB !important; 
+  border-radius: 8px;
+  color: #FFFFFF !important; 
+}
+
+.filters select {
+  padding: 8px;
+  border: 2px solid #96C2DB !important;
+  border-radius: 4px;
+  background-color: #FFFFFF !important;
+  color: #323232 !important;
+}
+
+.card {
+  background-color: #FFFFFF !important; 
+  color: #323232 !important;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+button {
+  background-color: #E5EDF1 !important;
+  color: #323232 !important;
+  border: none !important;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #96C2DB !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.modal-content {
+  background-color: lightsteelblue !important;
+  color: #444 !important;
+  border-radius: 8px;
+}
+
+.modal-header {
+  border-bottom: 1px solid #E5EDF1 !important;
+}
+
+.modal-footer {
+  border-top: 1px solid #E5EDF1 !important;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn.btn-primary {
+  background-color: #E5EDF1 !important;
+  color: #323232 !important;
+  border: none !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn.btn-primary:hover {
+  background-color: #96C2DB !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
